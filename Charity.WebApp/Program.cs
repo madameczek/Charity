@@ -1,9 +1,15 @@
+using Charity.BusinessLogic.Donations;
+using Charity.BusinessLogic.Interfaces;
+using Charity.RepositoryInMemory;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+
+builder.Services.AddSingleton<IRepository, InMemoryDonationRepository>();
+builder.Services.AddTransient<IViewDonationsUseCase, ViewDonationsUseCase>();
 
 var app = builder.Build();
 

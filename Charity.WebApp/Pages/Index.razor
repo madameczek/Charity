@@ -1,3 +1,32 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
+@using Charity.BusinessLogic.Interfaces
+@using Charity.Domain
+
+@inject IViewDonationsUseCase ViewDonationsUseCase
+
+<h1>Test Page</h1>
+<br>
+
+<table>
+    @foreach (var donation in _donations)
+    {
+        <tr>
+            <td>@donation.Id</td>
+            <td>Bags: @donation.Quantity</td>
+            <td>@donation.PickupOn</td>
+            <td>@donation.IsPicked</td>
+            <td>@donation.Comment</td>
+        </tr>
+    }
+</table>
+
+
+@code {
+    private IEnumerable<Donation> _donations = new List<Donation>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _donations = (await ViewDonationsUseCase.ExecuteAsync()).OrderBy(x => x.PickupOn);
+    }
+}
