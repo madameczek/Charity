@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charity.Domain", "Charity.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charity.BusinessLogic", "Charity.BusinessLogic\Charity.BusinessLogic.csproj", "{56E6944E-D7AD-43D6-B002-04CE371920B1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{38B634E4-FCC2-49CA-9B4F-B5D19D9B0239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charity.RepositoryInMemory", "Charity.RepositoryInMemory\Charity.RepositoryInMemory.csproj", "{475B5D09-B1AF-4B2B-83B6-329056F8DEE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,12 @@ Global
 		{56E6944E-D7AD-43D6-B002-04CE371920B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56E6944E-D7AD-43D6-B002-04CE371920B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56E6944E-D7AD-43D6-B002-04CE371920B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475B5D09-B1AF-4B2B-83B6-329056F8DEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475B5D09-B1AF-4B2B-83B6-329056F8DEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475B5D09-B1AF-4B2B-83B6-329056F8DEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475B5D09-B1AF-4B2B-83B6-329056F8DEE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{475B5D09-B1AF-4B2B-83B6-329056F8DEE5} = {38B634E4-FCC2-49CA-9B4F-B5D19D9B0239}
 	EndGlobalSection
 EndGlobal
