@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charity.WebApp", "Charity.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charity.Domain", "Charity.Domain\Charity.Domain.csproj", "{516084E8-ED0F-4E0E-ABA5-7F6F06FD073B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charity.BusinessLogic", "Charity.BusinessLogic\Charity.BusinessLogic.csproj", "{56E6944E-D7AD-43D6-B002-04CE371920B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{516084E8-ED0F-4E0E-ABA5-7F6F06FD073B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{516084E8-ED0F-4E0E-ABA5-7F6F06FD073B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{516084E8-ED0F-4E0E-ABA5-7F6F06FD073B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E6944E-D7AD-43D6-B002-04CE371920B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E6944E-D7AD-43D6-B002-04CE371920B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E6944E-D7AD-43D6-B002-04CE371920B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E6944E-D7AD-43D6-B002-04CE371920B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
