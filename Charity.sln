@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charity.WebApp", "Charity.WebApp\Charity.WebApp.csproj", "{D480F69A-1124-4A4B-9A6A-7AA0E4F985C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charity.Domain", "Charity.Domain\Charity.Domain.csproj", "{516084E8-ED0F-4E0E-ABA5-7F6F06FD073B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{D480F69A-1124-4A4B-9A6A-7AA0E4F985C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D480F69A-1124-4A4B-9A6A-7AA0E4F985C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D480F69A-1124-4A4B-9A6A-7AA0E4F985C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516084E8-ED0F-4E0E-ABA5-7F6F06FD073B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516084E8-ED0F-4E0E-ABA5-7F6F06FD073B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516084E8-ED0F-4E0E-ABA5-7F6F06FD073B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516084E8-ED0F-4E0E-ABA5-7F6F06FD073B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
